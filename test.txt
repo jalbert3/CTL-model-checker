@@ -1,0 +1,31 @@
+FSM
+STATES 3
+INIT
+0 : 1
+ARCS : 6
+0 : 2 : 1
+0 : 0 : 1
+1 : 0 : 1
+1 : 1 : 1
+2 : 1 : 1
+2 : 2 : 1
+END
+p
+ 0 : 1
+end_p
+q
+ 0 : 1
+ 2 : 1
+end_q
+i
+ 1 : 1
+ 2 : 1
+end_i
+j
+ 1 : 1
+end_j
+PROPERTIES
+(EpUq)
+(~(EGt))
+(EXp)
+p
